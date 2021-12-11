@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">listsAndProjects</string>
+    <string name="btMenu1">My Lists</string>
+    <string name="btMenu2">Shared Lists</string>
+    <string name="btMenuProjects">Projects</string>
+    <string name="btMennuRoutine">Routine</string>
+    <string name="btAddFolder">Add Folder</string>
 </resources>
