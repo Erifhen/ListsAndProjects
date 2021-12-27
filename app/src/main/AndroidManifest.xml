@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ListsAndProjects">
         <activity
+            android:name=".AddProjectActivity"
+            android:exported="false" />
+        <activity
             android:name=".RoutinesActivity"
             android:exported="false"
             android:label="@string/title_activity_routines"
@@ -17,6 +20,7 @@
         <activity
             android:name=".Projects"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
