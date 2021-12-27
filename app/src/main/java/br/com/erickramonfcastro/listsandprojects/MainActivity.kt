@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, Projects::class.java)
                 startActivity(intent)
             }
-            //O jão, adiciona ai a parte das rotinas na moral
         }
     }
 }
