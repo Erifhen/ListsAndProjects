@@ -1,10 +1,10 @@
 package br.com.erickramonfcastro.listsandprojects
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import br.com.erickramonfcastro.listsandprojects.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,7 +29,9 @@ class MainActivity : AppCompatActivity() {
             }
             //O jão, adiciona ai a parte das rotinas na moral
             binding.btMenuRoutine.setOnClickListener {
-
+            Toast.makeText(applicationContext, "Ta funfando", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Projects::class.java)
+            startActivity(intent)
             }
         }
     }
