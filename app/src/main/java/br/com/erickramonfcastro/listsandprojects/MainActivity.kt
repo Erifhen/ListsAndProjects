@@ -14,25 +14,24 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setupListeners()
+    }
 
-        with(binding) {
-            btSharedList.setOnClickListener {
-                Toast.makeText(applicationContext, "Coming soon", Toast.LENGTH_LONG).show()
-            }
-            btAddFolder.setOnClickListener {
-                Toast.makeText(applicationContext, "Coming soon", Toast.LENGTH_LONG).show()
-                //botões que mudam de Activity
-                //O jão, adiciona ai a parte das rotinas na moral
-            }
-            btMenuProjects.setOnClickListener {
-                val intent = Intent(this@MainActivity, Projects::class.java)
-                startActivity(intent)
-            }
-            btMenuRoutine.setOnClickListener {
-                Toast.makeText(applicationContext, "Ta funfando", Toast.LENGTH_SHORT).show()
-                val intent = Intent(applicationContext, Projects::class.java)
-                startActivity(intent)
-            }
+    private fun setupListeners() = with(binding) {
+        btSharedList.setOnClickListener {
+            Toast.makeText(applicationContext, "Coming soon", Toast.LENGTH_LONG).show()
+        }
+        btAddFolder.setOnClickListener {
+            Toast.makeText(applicationContext, "Coming soon", Toast.LENGTH_LONG).show()
+        }
+        btMenuProjects.setOnClickListener {
+            val intent = Intent(this@MainActivity, Projects::class.java)
+            startActivity(intent)
+        }
+        btMenuRoutine.setOnClickListener {
+            Toast.makeText(applicationContext, "Ta funfando", Toast.LENGTH_SHORT).show()
+            val intent = Intent(applicationContext, Projects::class.java)
+            startActivity(intent)
         }
     }
 }

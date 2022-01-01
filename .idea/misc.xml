@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/joaoa/StudioProjects/ListsAndProjects/app/src/main/res/drawable/card_edge.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/joaoa/StudioProjects/ListsAndProjects/app/src/main/res/layout/activity_main.xml" value="0.3967391304347826" />
+        <entry key="..\:/Users/joaoa/StudioProjects/ListsAndProjects/app/src/main/res/layout/activity_routines.xml" value="0.32760416666666664" />
         <entry key="..\:/Users/joaoa/StudioProjects/ListsAndProjects/app/src/main/res/layout/activity_routines2.xml" value="0.33125" />
         <entry key="..\:/Users/joaoa/StudioProjects/ListsAndProjects/app/src/main/res/layout/content_routines.xml" value="0.33177083333333335" />
       </map>
