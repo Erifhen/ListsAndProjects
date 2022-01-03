@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         btMenuProjects.setOnClickListener {
             val intent = Intent(this@MainActivity, Projects::class.java)
             startActivity(intent)
+            //pica
         }
         btMenuRoutine.setOnClickListener {
             Toast.makeText(applicationContext, "Ta funfando", Toast.LENGTH_SHORT).show()
